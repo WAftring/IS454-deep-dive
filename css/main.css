@@ -1,0 +1,22 @@
+/* stylesheet.css */
+
+/*Page changes*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: orange;
+}
+
+/*Div changes*/
+#div1 {
+  border: 1px solid red;
+  padding: 10px 5px;
+  width: 300px;
+}
+
+#div2 {
+  border: 2px dotted black;
+}
