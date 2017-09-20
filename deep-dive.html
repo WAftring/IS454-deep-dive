@@ -3,14 +3,87 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
     <title></title>
   </head>
   <body>
-    <div id="div1">
-      Div1
+    <div id='full-page' class='container'>
+    <div id="header" class="row"><!-- Absolute position-->
+      <div id='menu' class="inline col-xs"> <!-- Add 2/3 flexgrid -->
+        Menu
+      </div>
+      <div id='search' class="inline col-xs-9"> <!-- Add 1/3 flexgrid-->
+        Search
+      </div>
     </div>
-    <div id="div2">
-      Div2
+    <div id="subhead" class="full">
+      Subhead <!-- These div's will be 1/3 each-->
+      <div id='help' class="inline">
+        Help
+      </div>
+      <div id='flash' class="inline">
+        flashsale
+      </div>
+      <div id='location' class="inline">
+        location
+      </div>
     </div>
+    <div id="img-slide" class="full">
+      Image Slider
+    </div>
+    <div class="container full"> <!-- Holds 3 1/6th divs-->
+      <div id='store' class="six">
+        Store
+      </div>
+      <div id="topfif" class="six">
+        Top 50 products
+      </div>
+      <div id='specials' class="six">
+        Sales & Specials
+      </div>
+    </div>
+    <div id='section1' class="full">
+      Section1
+        <div id='promotion'><!-- This will be a 2/3 div-->
+          Promo
+          <div id='prodpro'>
+          </div>
+          <div id='fitplan'>
+            <div id='fittext' class="inline"><!-- 1/3 of parent div-->
+              Fit text
+          </div>
+          <div id='fitimg' class="inline"><!-- 2/3 of parent div-->
+            Fit img
+          </div>
+        </div>
+        <div id='advert'><!-- This will be a 1/3 div-->
+          Ads
+          <div id='social'>
+            Social
+          </div>
+          <div id='ad'>
+            Ad
+          </div>
+        </div>
+    </div>
+    <div id='section2' class="full">
+      <div id='workout'><!-- 2/3 div-->
+        <div id='w-article' class="img-bg"><!-- div with image background-->
+          Text in bottom left corner
+      </div>
+      <div id='work3s' class="tripled"><!-- 3 divs with images and articles in here each 1/3 of the parent div-->
+      </div>
+      <div id='recommend'><!-- 1/3 div -->
+        List with image and text
+      </div>
+    </div>
+    <div class="full"> <!--will have a smaller div with background img-->
+        <div id='f-ad' class="img-bg">
+          Full add
+        </div>
+    </div>
+  </div>
+  </div>
+</div>
   </body>
 </html>

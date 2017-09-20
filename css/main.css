@@ -11,12 +11,20 @@ body {
 }
 
 /*Div changes*/
-#div1 {
-  border: 1px solid red;
-  padding: 10px 5px;
-  width: 300px;
+.container {
+
 }
 
-#div2 {
-  border: 2px dotted black;
+#header {
+border: 2px solid black;
+
+}
+#menu {
+  border: 1px solid black;
+  flex-basis: 30px;
+}
+.inline {
+  position:relative;
+  border: 1px solid blue;
+  display: inline;
 }
