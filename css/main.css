@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: orange;
+
 
 }
 
@@ -24,19 +24,52 @@ body {
 /* ADD ABSOLUTE POSITION*/
 width: 100%;
 margin: 0px;
+min-height: 100px;
 
 }
 #menu {
   border: 1px solid black;
   flex-basis: 30px;
+  min-height: 75px;
+  height: 75px;
 }
 
-#subhead {
+#menu-bbpic {
+  background-color: #33b1f0;
+}
 
+.bbpic {
+  position: relative;
+  top: 5px;
+  left: -5px;
+  background-position: 0 0;
+  background-size: 124px 86px;
+  width: 39px;
+  height: 69px;
+  display: block !important;
+
+
+}
+.menu-center {
+  text-align: center;
+  vertical-align: center;
+  line-height: 75px;
+}
+#menu-nut {
+
+}
+.menu-item {
+
+  height: 75px;
+  position: relative;
 }
 
 .inline {
   position:relative;
   border: 1px solid blue;
+  display: inline;
+  height: 75px;
+}
+li {
   display: inline;
 }
