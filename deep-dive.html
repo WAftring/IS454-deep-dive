@@ -12,10 +12,10 @@
       <div id='menu-offset' class="col-xs-2">
       </div>
       <div id='menu' class="row col-xs">
-        <div id='menu-bbpic' class="col-xs-1 menu-item">
-          <a href='https://www.bodybuilding.com'><img class="bbpic" src="./img/bb-large.png"/></a>
+        <div id='menu-bbpic' class="col-xs-0.75 menu-item">
+          <a href='https://www.bodybuilding.com'><img class="bbpic" src="./img/bb-large.png" width='50'/></a>
         </div>
-        <div id='menu-items' class="col-xs menu-item">
+        <div class="col-xs-7 menu-item menu-position">
           <ul>
             <li>STORE</li>
             <li>TRAINING</li>
@@ -23,38 +23,52 @@
             <li>NUTRITION</li>
             <li>COMMUNITY</li>
           </ul>
+        </div>
+        <div id='search' class="col-xs-1">
+        <div id='sfield' class="menu-position"><form>
+        <input type='text' placeholder="Search"></input>
+        </form>
       </div>
-      <div id='search' class="col-xs-1"> <!-- Add 1/3 flexgrid-->
-        Search
+        <div id='buttons' class="menu-position row">
+        <button id='prof' class="menu-position"></button>
+        <button id='cart' class="menu-position col-xs-0.5"></button>
       </div>
+        </div>
       <div class="col-xs-2">
       </div>
     </div>
-    <div id="subhead" class="full">
-      Subhead <!-- These div's will be 1/3 each-->
-      <div id='help' class="inline">
-        Help
+    <div class="col-xs-1"></div>
+    <div id="subhead" class="row"> <!-- These div's will be 1/3 each-->
+      <div class="col-xs-2"></div>
+      <div id='help' class="col-xs-3">
+        <a class="blink" href='https://www.bodybuilding.com/store/shopfaq.htm'>Need Help?</a> Customer Support 1-866-236-8417
       </div>
-      <div id='flash' class="inline">
-        flashsale
+      <div id='flash' class="col-xs-3">
+        <b>FREE SHIPPING</b> on orders over $49 <a class="blink" href='https://marketing.bodybuilding.com/marketing/campaign/B-Elite' style="text-decoration:underline;">Details</a>
       </div>
-      <div id='location' class="inline">
-        location
+      <div class="col-xs-1"></div>
+      <div id='location' class="col-xs-2">
+        <img height="20" width="30" src='https://artifacts.bbcomcdn.com/bb-resources/2.1.5/flags/4x3/us.svg'/>United States
       </div>
     </div>
-    <div id="img-slide" class="full">
-      Image Slider
+    <div id='slider'><!-- Maybe add animation for slider later and navigation arrows-->
+      <a href='https://marketing.bodybuilding.com/marketing/campaign/OktobrofestSale'><img src='./img/banner.jpg' id='img-slide'/></a>
     </div>
-    <div class="container full"> <!-- Holds 3 1/6th divs-->
-      <div id='store' class="six">
-        Store
+    <div class="row container"> <!-- Holds 3 1/6th divs-->
+      <div class="col-xs-2"></div>
+      <div id='store' class="col-xs-3">
+        <a href='https://www.bodybuilding.com/store/'>
+
+
+        </a>
       </div>
-      <div id="topfif" class="six">
+      <div id="topfif" class="col-xs-3">
         Top 50 products
       </div>
-      <div id='specials' class="six">
+      <div id='specials' class="col-xs-3">
         Sales & Specials
       </div>
+      <div class="col-xs-1"></div>
     </div>
     <div id='section1' class="full">
       Section1
