@@ -235,7 +235,8 @@ button {
 }
 
 .img-bg {
-  height:825px;
+  height:500px;
+  width: 907px;
   background-repeat: no-repeat;
 
 }
@@ -291,5 +292,35 @@ button {
 
 .work-img {
   background-image: url(../img/arms.jpg);
+
+}
+
+.sup-img {
+  background-image: url(../img/msm.jpg);
+}
+#rec-nut {
+  position: relative;
+  height:120px;
+  width: 326px;
+  margin-bottom: -20px;
+  right: 15px;
+}
+#rec-nut img {
+    height: 68px;
+    width: 121px;
+    padding: 0px;
+    margin:0px;
+
+
+}
+.mot-bg {
+  background-image: url(../img/motivation.jpg);
+}
+.articles {
+  background-color: #00aeff;
+  border-radius: 5px;
+  color:white;
+}
+.more {
 
 }
