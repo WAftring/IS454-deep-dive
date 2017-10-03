@@ -6,6 +6,7 @@
   padding: 0;
   font-family: ProximaNovaSemibold, Arial, sans-serif;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -62,9 +63,8 @@ z-index: 100;
 
 .bbpic {
   position: relative;
-  top: 5px;
+  top: 10px;
   left: 5px;
-  background-position: 0 0;
   background-size: 124px 86px;
   width: 65px;
   height: 69px;
@@ -267,6 +267,10 @@ text-decoration: underline;
   overflow: hidden;
 }
 
+.bottom-left h1:hover {
+  color: #00aeff;
+}
+
 .separate {
   height: 40px;
 }
@@ -425,4 +429,8 @@ font-weight: bold;
   text-align: center;
   font-size: 12px;
   color: #838383;
+}
+
+.col-xs-4 b:hover {
+  color:#00aeff;
 }
